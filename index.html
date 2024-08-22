@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML</title>
+</head>
+<body>
+    <h1 id="struct">1. Estructura básica del documento html</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaracion DOCTYPE, etiquetas, metadatyos y un titulo</p>
+    <h1>2. Encabezados y propiedades del texto</h1>
+        <p style="font-weight: bold;">Este es un texto en negrita</p>
+        <p style="font-style: italic;">Este es un texto en cursiva</p>
+        <p style="text-decoration: underline;">Este es un texto subrayado</p>
+
+    <h1>3. Divisiones y agrupacion de contenidos</h1>
+
+        <div>
+            <h2 style="font-weight: bold;">Seccion 1</h2>
+            <p>Contenido de la primera seccion agrupada en un div</p>
+        </div>
+
+        <div>
+            <h2 style="font-weight: bold;">Seccion 2</h2>
+            <p>Contenido de la segunda seccion agrupada en un div</p>
+        </div>
+
+    <h1>4. Enlaces y listas</h1>
+        <p>
+        Visita nuestro <a href="https://www.youtube.com/@ColmenaTEC" target="_blank">sitio web</a>
+        para más infomarcion
+        </p>
+        <ul>
+            <li><a href="#struct">Ir a Estrucutra</a></li>
+            <li><a href="#mult">Ir a Multimedia</a></li>
+            <li><a href="#forms">Ir a Formularios</a></li>
+        </ul>
+    
+    <h1 id="mult">5. Multimedia</h1>
+    <div>
+        <img src="media/albertito.jpeg" alt="zzz..." height="315">    
+        <video width="560" height="315" src="media/madumadu.mp4" controls></video>
+        <audio src="media/Snore Mimimimimimimi Sound Effect.mp3" controls autoplay></audio>
+    </div>
+       
+    
+    <h1>6. Tablas</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+            </tr>
+            <tr>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+            </tbody>
+        </table>     
+
+    <h1 id="forms">7. Formularios</h1>
+        <form action="submit_form_destination" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        
+</body>
+</html>
